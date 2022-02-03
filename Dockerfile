@@ -1,6 +1,6 @@
 FROM openjdk
 
-WORKDIR /app
+WORKDIR /appgi
 
 COPY target/docker-0.0.1-SNAPSHOT.jar /app/spring-app.jar
 
